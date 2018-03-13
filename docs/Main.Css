@@ -1,0 +1,240 @@
+a {
+	text-decoration:none;
+        color: #475875;
+        font-family: century gothic, Verdana, Times, Arial;
+	font-size:25px;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+body{
+	color: #475875;
+	font-family: century gothic, Verdana, Times, Arial;
+	background-color: #F7F6F6;
+}
+
+
+footer {
+    padding: 1em;
+    color: #475875;
+    font-family: century gothic, Verdana, Times, Arial;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 575px;
+    margin-right: 575px;
+}
+
+
+h1 {
+    font-family: century gothic, Verdana, Times, Arial;
+}
+
+h2 {
+    font-family: century gothic, Verdana, Times, Arial;
+}
+
+#body {
+    margin-top: 50px;
+    margin: 0 auto;
+    background-color: white;
+    width: 50%;
+    padding-top: 30px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    border-radius: 5px;
+    border: 1px solid #808080;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+
+#thankyou_message {
+    text-align: center;
+    font-family: century gothic, Verdana, Times, Arial;
+    color: black;
+
+}
+
+/* for Slideshow  */
+.slider {
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url(images/blueloadergif.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#show img, iframe {
+    display: none;
+}
+
+#LeftArrow, #RightArrow {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    z-index: 1;
+    top:50%;
+}
+
+#LeftArrow {
+    left: -10px;
+}
+
+#RightArrow {
+    right: -10px;
+}
+
+#LeftArrow:hover, #RightArrow:hover {
+    opacity: 0.8;
+}
+
+
+/** For social media div **/
+
+#SocialMedia {
+    border-radius: 2px;
+    background-color: #475875;
+    margin-right: 1419px;
+}
+
+#SocialMedia2 {
+    border-radius: 2px;
+    background-color: #475875;
+    margin-right: 1436px;
+}
+
+#SocialMedia img {
+    width: 25px;
+    height: 25px;
+}
+
+#SocialMedia2 img {
+    width: 25px;
+    height: 25px;
+}
+
+/** For P tags **/
+
+#Content_Copy {
+    font-family: century gothic, Verdana, Times, Arial;
+	margin-top: 5px;
+	
+}
+
+#Content_Form {
+	text-align: center;
+    	font-family: century gothic, Verdana, Times, Arial; 
+	margin-left: 650px;
+	margin-right: 650px;
+	margin-top: 50px;
+}
+
+/* These are the wrapper and form adjustments */
+#form_container {
+    display: block;
+    text-align: center;
+    font-family: century gothic, Verdana, Times, Arial;
+}
+
+#form_container form {
+    display: inline-block;
+    left: auto;
+    right: auto;
+    text-align: left;
+}
+
+/** Contact List ID **/
+
+
+#Contact_ul ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:none;
+	padding: 5px;
+	text-align: center;
+	font-family: century gothic, Verdana, Times, Arial; 
+}
+
+
+/** Navigation Bar ID **/
+
+
+#NavBar li {
+    float:center;
+    display: inline;
+}
+
+
+#NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:none;
+}
+
+/** Artists Page**/
+
+/** for the space in the pictures and border **/
+.a {
+	padding:0;
+}
+
+/** table sizing for the space between the shows**/
+.table0{
+	margin-left: 150px;
+}
+
+.table1{
+	margin-top: 100px;
+	margin-right: 150px;
+}
+
+.table2{
+	margin-top: 110px;
+	margin-left: 150px;
+}
+
+.table3{
+	margin-top: 200px;
+    	margin-bottom: 50px;
+	margin-right: 150px;
+}
+
+
+/** for the hover over picture with name code **/
+div.img {
+	border: 1px solid #ccc;
+    margin: 10px;
+    float: left;
+    width: 220px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+	width: auto;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+.sub_img {
+	margin-right: 75px;
+
+}
+
+.sub_img2 {
+	margin-left: 75px;
+}
